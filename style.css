@@ -1,41 +1,67 @@
-*{
+body{
     margin: 0;
     padding: 0;
 }
 
-header{
-    width: 100% ;
+.Inicio {
+    width: 100%;
     height: 100px;
-    background-color: firebrick;
+    background-color: aqua;
 }
 
-header p{
-    color: white;
-    font-size: 15px;
-    text-align: left;
+.Inicio p{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    float: left;
 }
 
-header .logo{
-    width: 100px;
-    height: 100px;
-    float: center;
+
+.Inicio .logo{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.Inicio nav .logo1{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.Inicio nav .logo2{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+
+.Categorias {
+    width: 100%;
+    height: 1000px;
+    background-color: red;
+}
+
+.Categorias h1{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.Categorias div .imagenes{
+    width: 100%;
+    height: 100%;
     margin: auto;
 }
 
-header .iconos{
+section .prombanner{
     width: 100%;
     height: 100px;
-    display: inline-block;
-}
-
-main{
-    width: 100%;
-    height: 100%;
-    background-color: green;
+    
 }
 
 footer{
     width: 100%;
     height: 100px;
-    background-color: salmon;
+    background-color: aqua;
 }
