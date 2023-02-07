@@ -1,1 +1,103 @@
+.Inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A6A6A6;
+    padding: 10px;
+  }
+  
+  .Inicio p {
+    margin: 10px;
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  .Inicio .logo {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+  }
+  
+  .Inicio .menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .Inicio .menu img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  
 
+  .Categorias {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: violet;
+  }
+  
+  .Categorias h1 {
+    margin-bottom: 30px;
+  }
+  
+  .Categorias .Imagenes {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .Categorias .Imagenes img {
+    width: 30%;
+  }
+  
+  .prombanner {
+    height: 200px;
+    display: flex;
+ }
+
+  .prombanner img {
+    width: 100%;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+    background-color: #f2f2f2;
+    }
+    
+    .sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    
+    .sobre p {
+    margin: 0;
+    }
+    
+    .redes {
+    display: flex;
+    align-items: flex-end;
+    }
+    
+    .redes img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    }
+    
+    p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    }
+    
+    
+    
+    
