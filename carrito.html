@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elegancia a la medida</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carrito.css">
 </head>
 <body>
     <header class="Inicio">
@@ -19,52 +20,54 @@
         </div>
     </header>
     <main class="Categorias">
-        <p>Termina tu compra</p>
+        <h3 class="titulo1">Termina tu compra</h3>
         <figure>
             <img src="Tarea wireframe y mookup/back-view-boy-s-white-t-shirt_53876-153482.png"/>
             <figcaption>Camisa</figcaption>
             <img src="Tarea wireframe y mookup/baby-shoes_1203-6998.png"/>
             <figcaption>Zapatos</figcaption>
         </figure>
-        <fieldset>
-        <form>
-                <legend>Datos de envio</legend>
-                <h3>Metodo de envio</h3>
-                <label>Recoger en bodega</label>
-                <input type="radio" name="envio" value="recoger">
-                <label>Envio a domicilio</label>
-                <input type="radio" name="envio" value="domicilio">
-                <label>Envio rapido</label>
-                <input type="radio" name="envio" value="rapido">
-                <p><a href="#">Guardar datos para proximas compras</a></p>
-            </form>
-        </fieldset>
-        <fieldset>
-            <legend>Confirmar compra</legend>
-                <table>
-                <h3>Confirmar</h3>
-                <tr>
-                    <td>Cantidad</td>
-                    <td>Producto</td>
-                    <td>Precio</td>
-                    <td>Total</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Camisa</td>
-                    <td>Q. 100.00</td>
-                    <td>Q. 100.00</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Camisa</td>
-                    <td>Q. 100.00</td>
-                    <td>Q. 200.00</td>
-                </tr>
-            </table>
-        </fieldset>
-            <a href="paypal.com"><img src="Tarea wireframe y mookup/paypal.png" width="100px" height="100px"></a>
-            <figcaption>Proceder a pagar</figcaption>
+        <div class="forms">
+            <fieldset>
+            <form class="form1">
+                    <legend>Datos de envio</legend>
+                    
+                    <label>Recoger en bodega</label>
+                    <input type="radio" name="envio" value="recoger">
+                    <label>Envio a domicilio</label>
+                    <input type="radio" name="envio" value="domicilio">
+                    <label>Envio rapido</label>
+                    <input type="radio" name="envio" value="rapido">
+                    <p><a href="#">Guardar datos para proximas compras</a></p>
+                </form>
+            </fieldset>
+            <fieldset>
+                <legend>Confirmar compra</legend>
+                    <table>
+                    <h3>Confirmar</h3>
+                    <tr>
+                        <td>Cantidad</td>
+                        <td>Producto</td>
+                        <td>Precio</td>
+                        <td>Total</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Camisa</td>
+                        <td>Q. 100.00</td>
+                        <td>Q. 100.00</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Camisa</td>
+                        <td>Q. 100.00</td>
+                        <td>Q. 200.00</td>
+                    </tr>
+                </table>
+                <a class="paypal" href="paypal.com"><img src="Tarea wireframe y mookup/paypal.png" width="100px" height="100px"></a>
+                <figcaption>Proceder a pagar</figcaption>
+            </fieldset>
+        </div>
     </main> 
         <footer>
         <div class="sobre"> 
