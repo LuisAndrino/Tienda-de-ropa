@@ -39,9 +39,9 @@ form.form1 label,
 form.form1 input[type="radio"] {
   display: inline-block;
   vertical-align: top;
-  margin-right: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 20px;
 }
 
