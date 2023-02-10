@@ -1,0 +1,83 @@
+.Categorias{
+    width: 100%;
+    height: 800px;
+}
+
+.Categorias form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+  }
+  
+  .Categorias label {
+    width: 25%;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .Categorias input, select {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .Categorias select {
+    width: 110%;
+    padding: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .Categorias button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Categorias p {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+main form button
+    {
+        margin-top: 10px;
+        background-color: blue;
+        color: white;
+        padding: 14px 20px;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: underline;
+        display: inline-block;
+        border: none;
+      }
+
+main form button:hover {
+        background-color: lightblue;
+        cursor: pointer;
+}
+
+main form button
+    {
+        margin-top: 10px;
+        background-color: blue;
+        color: white;
+        padding: 14px 20px;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: underline;
+        display: inline-block;
+        border: none;
+      }
+
+main form button:hover {
+        background-color: lightblue;
+        cursor: pointer;
+}

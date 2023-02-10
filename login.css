@@ -1,0 +1,34 @@
+.Categorias{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+main form button
+    {
+        margin-top: 10px;
+        background-color: blue;
+        color: white;
+        padding: 14px 20px;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: underline;
+        display: inline-block;
+        border: none;
+      }
+
+main form button:hover {
+        background-color: lightblue;
+        cursor: pointer;
+}
