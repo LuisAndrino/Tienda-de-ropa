@@ -27,7 +27,9 @@ header{
 .logo1 ,.logo2{
   width: 50px;
   height: 50px;
-  float: right;  
+  float: right;
+  margin-right: 20px;
+
 }
 
 main{
@@ -81,9 +83,14 @@ main h1{
   display: block;
 }
 
+.prombanner{
+  margin-bottom: 0;
+}
+
 .prombanner img{
   width: 100%;
   height: 300px;
+  margin: 0 auto;
 }
 
 main audio{
@@ -98,6 +105,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 0;
 }
 
 footer .sobre {
