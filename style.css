@@ -33,7 +33,7 @@ header{
 }
 
 main{
-    background: papayawhip;
+    background: #EAEAEA;
     height: 400px;
     width: 100%;
 }
@@ -114,6 +114,7 @@ footer .sobre {
   text-align: left;
   margin-top: 0;
   width: 30%;
+  text-decoration: none;
 }
 
 footer .redes {
@@ -121,6 +122,7 @@ footer .redes {
   justify-content: flex-end;
   align-items: right;
   width: 30%;
+  text-decoration: none;
 }
 
 footer .redes img {
@@ -135,4 +137,5 @@ footer p {
   text-align: center;
   margin-top: 0;
   width: 40%;
+  text-decoration: none;
 }

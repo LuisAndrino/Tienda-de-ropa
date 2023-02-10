@@ -6,7 +6,7 @@
 main figure {
     width: 300px;
     height: 300px;
-    background: blue;
+    background: #BBBBBB;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +19,7 @@ main figure {
     letter-spacing: 0.2rem;
     position: relative;
     overflow: hidden;
+    border-radius: 20%;
 }
 .paginacion {
     display: flex;
